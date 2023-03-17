@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	for (int i = 0; i < 26; i++)
-		putchar('a' + i);
+	for (char ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	putchar('\n');
 	return (0);
 }
