@@ -20,5 +20,5 @@ void print_array(int *a, int n)
 		{
 			_putchar(a[n - 1]);
 		}
-			_putchar("\n");
+			_putchar('\n');
 }
